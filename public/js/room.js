@@ -1,7 +1,7 @@
 'use strict';
 
 var meeting;
-var host = HOST_ADDRESS; // HOST_ADDRESS gets injected into room.ejs from the server side when it is rendered
+var host = "https://stream-web-server.herokuapp.com"//HOST_ADDRESS; // HOST_ADDRESS gets injected into room.ejs from the server side when it is rendered
 
 $(document).ready(function () {
 	/////////////////////////////////
